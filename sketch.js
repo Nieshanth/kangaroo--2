@@ -224,8 +224,8 @@ function reset(){
   kangaroo.visible = false;
   kangaroo.changeAnimation("running",
                kangaroo_running);
-  obstaclesGroup.destroyeach();
-  shrubsGroup.destroyeach();
+  obstaclesGroup.destroyEach();
+  shrubsGroup.destroyEach();
   score = 0;
 }
 
